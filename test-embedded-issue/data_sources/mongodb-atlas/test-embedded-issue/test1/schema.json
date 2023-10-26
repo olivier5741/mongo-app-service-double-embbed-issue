@@ -1,0 +1,80 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "catalog": {
+            "bsonType": "objectId"
+        },
+        "description": {
+            "bsonType": "object",
+            "properties": {
+                "long": {
+                    "bsonType": "object",
+                    "properties": {
+                        "markdown": {
+                            "bsonType": "string"
+                        }
+                    },
+                    "title": "formattedText"
+                },
+                "short": {
+                    "bsonType": "object",
+                    "properties": {
+                        "markdown": {
+                            "bsonType": "string"
+                        }
+                    },
+                    "title": "formattedText"
+                }
+            },
+            "title": "description"
+        },
+        "translations": {
+            "bsonType": "object",
+            "properties": {
+                "de": {
+                    "bsonType": "object",
+                    "properties": {
+                        "name": {
+                            "bsonType": "string"
+                        }
+                    },
+                    "title": "i18nLanguageBundle"
+                },
+                "en": {
+                    "bsonType": "object",
+                    "properties": {
+                        "name": {
+                            "bsonType": "string"
+                        }
+                    },
+                    "title": "i18nLanguageBundle"
+                },
+                "fr": {
+                    "bsonType": "object",
+                    "properties": {
+                        "name": {
+                            "bsonType": "string"
+                        }
+                    },
+                    "title": "i18nLanguageBundle"
+                },
+                "nl": {
+                    "bsonType": "object",
+                    "properties": {
+                        "name": {
+                            "bsonType": "string"
+                        }
+                    },
+                    "title": "i18nLanguageBundle"
+                }
+            },
+            "title": "i18nBundle"
+        }
+    },
+    "required": [
+        "_id"
+    ],
+    "title": "test1"
+}
