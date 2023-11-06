@@ -1,6 +1,39 @@
 
+https://github.com/olivier5741/mongo-app-service-double-embbed-issue/assets/3897291/07bcdb9a-b84d-4fdb-88af-d1e0738ff4c7
 
-https://github.com/olivier5741/mongo-app-service-double-embbed-issue/assets/3897291/e49795a4-74a1-408b-bcf7-7fe5feba26e4
+
+## GraphQL query
+
+```graphql
+{
+  counters {
+    _id
+    description {
+      short {
+        markdown
+      }
+    }
+    translations {
+      en {
+        name
+      }
+    }
+    catalog {
+      _id
+      description {
+        short {
+          markdown
+        }
+      }
+      translations {
+        en {
+          name
+        }
+      }
+    }
+  }
+}
+```
 
 ## Counter document
 
