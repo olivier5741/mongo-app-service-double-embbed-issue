@@ -1,0 +1,8 @@
+{
+    "catalog": {
+        "ref": "#/relationship/mongodb-atlas/test-embedded-issue/catalog",
+        "source_key": "catalog",
+        "foreign_key": "_id",
+        "is_list": false
+    }
+}
